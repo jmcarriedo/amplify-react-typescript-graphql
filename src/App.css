@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.colorful-button {
+  background-color: #8E2DE2;  /* fallback for old browsers */
+  background-color: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background-color: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: linear-gradient(90deg, #fdbb2d 0%, #22c1c3 100%);
+}
+
+/* .amplify-button {
+  all: unset;
+  background: #8E2DE2;
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+} */
+
+.amplify-button {
+  background-color: #0057ff;
+}
+.amplify-button:hover {
+  background-color: #4d89fc;
+}
